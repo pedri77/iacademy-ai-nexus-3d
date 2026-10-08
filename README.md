@@ -35,7 +35,7 @@ El build está en `dist/`. Preview sirve el build bajo la misma ruta que Pages. 
 
 Workflow preparado en `.github/workflows/deploy.yml`: build, tests y publicación desde `main`; las PR solo verifican. La base fija exige un repositorio llamado `iacademy-ai-nexus-3d` (actualiza `vite.config.ts` y la URL de tests si cambias el nombre).
 
-Estado de entrega: proyecto local verificado; publicación pendiente de aprobación explícita para crear un repositorio público y divulgar su código. La sesión de GitHub está disponible.
+Repositorio público autorizado: https://github.com/pedri77/iacademy-ai-nexus-3d. GitHub Actions verifica el proyecto y publica GitHub Pages desde `main`. La URL del despliegue aparece en el entorno `github-pages` del repositorio.
 
 La publicación requiere una cuenta GitHub autenticada. Para crear un despliegue nuevo desde una copia local sin remoto:
 
